@@ -3,12 +3,12 @@ okex
 [![Go Reference](https://pkg.go.dev/badge/github.com/amir-the-h/okex.svg)](https://pkg.go.dev/github.com/amir-the-h/okex)
 [![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/amir-the-h/okex.svg)](https://github.com/amir-the-h/okex)
 [![GoReportCard example](https://goreportcard.com/badge/github.com/amir-the-h/okex)](https://goreportcard.com/report/github.com/amir-the-h/okex)
-[![GitHub license](https://img.shields.io/github/license/amir-the-h/okex.svg)](https://github.com/amir-the-h/okex/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/amir-the-h/okex.svg)](https://GitHub.com/amir-the-h/okex/releases/)
+[![GitHub license](https://img.shields.io/github/license/amir-the-h/okex.svg)](https://github.com/Roninchen/okex/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/amir-the-h/okex.svg)](https://github.com/Roninchen/okex/releases/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![CI](https://github.com/amir-the-h/okex/actions/workflows/main.yml/badge.svg)](https://github.com/amir-the-h/okex/actions/workflows/main.yml)
-[![CodeQL](https://github.com/amir-the-h/okex/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/amir-the-h/okex/actions/workflows/codeql-analysis.yml)
-[![AutoRelease](https://github.com/amir-the-h/okex/actions/workflows/release.yml/badge.svg)](https://github.com/amir-the-h/okex/actions/workflows/release.yml)
+[![CI](https://github.com/Roninchen/okex/actions/workflows/main.yml/badge.svg)](https://github.com/Roninchen/okex/actions/workflows/main.yml)
+[![CodeQL](https://github.com/Roninchen/okex/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Roninchen/okex/actions/workflows/codeql-analysis.yml)
+[![AutoRelease](https://github.com/Roninchen/okex/actions/workflows/release.yml/badge.svg)](https://github.com/Roninchen/okex/actions/workflows/release.yml)
 
 *NOTICE:*
 > PACKAGE IS CURRENTLY UNDER HEAVY DEVELOPMENT AND THERE IS NO GUARANTY FOR STABILITY UNTIL V1 RELEASE.
@@ -34,11 +34,11 @@ package main
 import (
 	"context"
 	"github.com/amir-the-h/okex"
-	"github.com/amir-the-h/okex/api"
-	"github.com/amir-the-h/okex/events"
-	"github.com/amir-the-h/okex/events/private"
-	ws_private_requests "github.com/amir-the-h/okex/requests/ws/private"
-	ws_public_requests "github.com/amir-the-h/okex/requests/ws/public"
+	"github.com/Roninchen/okex/api"
+	"github.com/Roninchen/okex/events"
+	"github.com/Roninchen/okex/events/private"
+	ws_private_requests "github.com/Roninchen/okex/requests/ws/private"
+	ws_public_requests "github.com/Roninchen/okex/requests/ws/public"
 	"log"
 )
 
@@ -160,4 +160,4 @@ Features
 * Fully automated authorization steps for both [REST](/api/rest) and [WS](/api/ws)
 * To receive websocket events you can choose [RawEventChan](/api/ws/client.go#L25)
   , [StructuredEventChan](/api/ws/client.go#L28), or provide your own
-  channels. [More info](https://github.com/amir-the-h/okex/wiki/Handling-WS-events) 
+  channels. [More info](https://github.com/Roninchen/okex/wiki/Handling-WS-events) 
